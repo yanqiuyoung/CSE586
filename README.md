@@ -10,6 +10,7 @@ To correctly run the test model, the following packages are required.
 3.	openCV
 
 ##############################Training##################################
+
 run resnet9.ipynb to save the pre-trained weights
 run python train.py for transfer learning
 Arguments:
@@ -20,5 +21,6 @@ Arguments:
 --sched: scheduler for one cycle learniing rate
 
 ##############################Testing###################################
+
 run python test.py to get the test results
 run Draw_the_Figure.ipynb to get the visualization
