@@ -1,5 +1,6 @@
 # CSE586
 Course project - Apple Foliar Disease Classification
+
 This repository contains training file for ResNet-9 pre-trained on PlantVillage dataset and fine-turned on Plant Pathology dataset
 ##############################PRE-REQUEST###################################
 To correctly run the test model, the following packages are required.
@@ -8,7 +9,7 @@ To correctly run the test model, the following packages are required.
 3.	openCV
 ##############################Training###################################
 run resnet9.ipynb to save the pre-trained weights
-run python train.py
+run python train.py for transfer learning
 Arguments:
 --train_dir = data_dir + "train"
 --valid_dir = data_dir + "valid"
@@ -17,4 +18,4 @@ Arguments:
 --sched: scheduler for one cycle learniing rate
 ##############################Testing###################################
 run python test.py to get the test results
-run Draw_Figure.ipynb to get the visualization
+run Draw_the_Figure.ipynb to get the visualization
